@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Filter</title>
+  <style>
+    table { text-align: left; }
+    th { padding: .25em; }
+    input[type="checkbox"] { display: none; }
+    input[type="checkbox"]:checked + label { background: green; }
+    label { display: block; padding: .25em; }
+    .results { display: flex; align-items: flex-start; text-align: center; margin-top: 1em; }
+    .results figure { margin: 0 4px; height: 240px; min-height: 1px; display: flex; flex-direction: column; justify-content: flex-end; }
+    .results figcaption { margin-top: .5em; }
+    .results div { box-sizing: border-box; padding-top: .25em; height: 200px; width: 100px; background: #ccc; }
+  </style>
+
+</head>
+<body>
+  
+  <p>Choose your attitudes towards the following (you can select any/all) then hit “Done”:</p>
+  
+  <table>
+    <!-- <tr>
+      <th scope="col">Attitude</th>
+      <th scope="col">Poor</th>
+      <th scope="col">Middle</th>
+      <th scope="col">Wealthy</th>
+    </tr> -->
+    <tr>
+      <th scope="row">Money</td>
+      <td><input type="checkbox" name="money_1" id="spend" value="spend"><label for="spend">Spend</label></td>
+      <td><input type="checkbox" name="money_2" id="manage" value="manage"><label for="manage">Manage</label></td>
+      <td><input type="checkbox" name="money_3" id="invest" value="invest"><label for="invest">Invest</label></td>
+    </tr>
+    <tr>
+      <th scope="row">Personality</td>
+      <td><input type="checkbox" name="personality_1" id="humour" value="humour"><label for="humour">Humour</label></td>
+      <td><input type="checkbox" name="personality_2" id="achievement" value="achievement"><label for="achievement">Achievement</label></td>
+      <td><input type="checkbox" name="personality_3" id="connections" value="connections"><label for="connections">Connections</label></td>
+    </tr>
+    <tr>
+      <th scope="row">Social</td>
+      <td><input type="checkbox" name="social_1" id="inclusion" value="inclusion"><label for="inclusion">Inclusion</label></td>
+      <td><input type="checkbox" name="social_2" id="selfsufficient" value="selfsufficient"><label for="selfsufficient">SelfSufficient</label></td>
+      <td><input type="checkbox" name="social_3" id="exclusive" value="exclusive"><label for="exclusive">Exclusive</label></td>
+    </tr>
+    <tr>
+      <th scope="row">Food</td>
+      <td><input type="checkbox" name="food_1" id="quantity" value="quantity"><label for="quantity">Quantity</label></td>
+      <td><input type="checkbox" name="food_2" id="quality" value="quality"><label for="quality">Quality</label></td>
+      <td><input type="checkbox" name="food_3" id="presentation" value="presentation"><label for="presentation">Presentation</label></td>
+    </tr>
+    <tr>
+      <th scope="row">Time</td>
+      <td><input type="checkbox" name="time_1" id="present" value="present"><label for="present">Present</label></td>
+      <td><input type="checkbox" name="time_2" id="future" value="future"><label for="future">Future</label></td>
+      <td><input type="checkbox" name="time_3" id="tradition" value="tradition"><label for="tradition">Tradition</label></td>
+    </tr>
+    <tr>
+      <th scope="row">Education</td>
+      <td><input type="checkbox" name="education_1" id="casual" value="casual"><label for="casual">Casual</label></td>
+      <td><input type="checkbox" name="education_2" id="success" value="success"><label for="success">Success</label></td>
+      <td><input type="checkbox" name="education_3" id="contacts" value="contacts"><label for="contacts">Contacts</label></td>
+    </tr>
+    <tr>
+      <th scope="row">Language</td>
+      <td><input type="checkbox" name="language_1" id="familiar" value="familiar"><label for="familiar">Familiar</label></td>
+      <td><input type="checkbox" name="language_2" id="negotiating" value="negotiating"><label for="negotiating">Negotiating</label></td>
+      <td><input type="checkbox" name="language_3" id="networking" value="networking"><label for="networking">Networking</label></td>
+    </tr>
+    <tr>
+      <th scope="row">Family</td>
+      <td><input type="checkbox" name="family_1" id="matriarchal" value="matriarchal"><label for="matriarchal">Matriarchal</label></td>
+      <td><input type="checkbox" name="family_2" id="patriarchal" value="patriarchal"><label for="patriarchal">Patriarchal</label></td>
+      <td><input type="checkbox" name="family_3" id="wealthy" value="wealthy"><label for="wealthy">Wealthy</label></td>
+    </tr>
+    <tr>
+      <th scope="row">Drives</td>
+      <td><input type="checkbox" name="drives_1" id="relationships" value="relationships"><label for="relationships">Relationships</label></td>
+      <td><input type="checkbox" name="drives_2" id="ambition" value="ambition"><label for="ambition">Ambition</label></td>
+      <td><input type="checkbox" name="drives_3" id="control" value="control"><label for="control">Control</label></td>
+    </tr>
+    <tr>
+      <th scope="row">Destiny</td>
+      <td><input type="checkbox" name="destiny_1" id="fate" value="fate"><label for="fate">Fate</label></td>
+      <td><input type="checkbox" name="destiny_2" id="choice" value="choice"><label for="choice">Choice</label></td>
+      <td><input type="checkbox" name="destiny_3" id="expectations" value="expectations"><label for="expectations">Expectations</label></td>
+    </tr>
+  </table>
+  
+  <button type="button" id="done">Done</button>
+  <button type="button" id="clear">Clear</button>
+
+  <p>Your approach is classified as follows:</p>
+  <div class="results">
+    <figure>
+      <div id="poorGraph"></div>
+      <figcaption><span id="poor_pc"></span>Poor</figcaption>
+    </figure>
+    <figure>
+      <div id="middleGraph"></div>
+      <figcaption><span id="middle_pc"></span>Middle</figcaption>
+    </figure>
+    <figure>
+      <div id="wealthyGraph"></div>
+      <figcaption><span id="wealthy_pc"></span>Wealthy</figcaption>
+    </figure>
+  </div>
+
+  <script>
+  "use strict";
+  const getChoices = () => {
+    return document.querySelectorAll('[type="checkbox"]:checked');
+  }
+  const socialGroup = () => {
+    return document.querySelectorAll('[type="checkbox"]:checked');
+  }
+  
+  let socialGroup_1 = 0, socialGroup_2 = 0, socialGroup_3 = 0;
+
+  const socialTotals = (choiceNumber) => {
+    switch(choiceNumber) {
+      case 1:
+        socialGroup_1 += 1;
+        break;
+      case 2:
+        socialGroup_2 += 1;
+        break;
+      case 3:
+        socialGroup_3 += 1;
+      default: /* comes up if chosen a option is deselected */
+        console.log("Nothing chosen!");
+    }
+    console.log(`One: ${socialGroup_1}, Two: ${socialGroup_2}, Three: ${socialGroup_3}`);
+    // return `One: ${socialGroup_1}, Two: ${socialGroup_2}, Three: ${socialGroup_3}`;
+  }
+
+  clear.addEventListener("click", () => {
+    const choices = getChoices();
+    choices.forEach( choice => {
+      choice.checked = false;
+      socialGroup_1, socialGroup_2, socialGroup_3  = 0;
+      poorGraph.style["height"]="200px", middleGraph.style["height"]="200px", wealthyGraph.style["height"]="200px";
+      // poorGraph.innerHTML="", middleGraph.innerHTML="", wealthyGraph.innerHTML="";
+      poor_pc.innerHTML="", middle_pc.innerHTML="", wealthy_pc.innerHTML="";
+    });
+  });
+  
+  done.addEventListener("click", () => {
+    const choices = getChoices();
+    choices.forEach( choice => {
+      // console.log(choice.name.slice(0, -2));
+      socialTotals(parseInt(choice.name.at(-1)));
+    });
+    
+    // poorGraph.innerHTML = `${socialGroup_1 * 10}%`;
+    poor_pc.innerHTML = `${socialGroup_1 * 10}% `;
+    poorGraph.style["height"] = `${parseInt(socialGroup_1 * 20)}px`;
+    
+    // middleGraph.innerHTML = `${socialGroup_2 * 10}%`;
+    middle_pc.innerHTML = `${socialGroup_2 * 10}% `;
+    middleGraph.style["height"] = `${parseInt(socialGroup_2 * 20)}px`;
+    
+    // wealthyGraph.innerHTML = `${socialGroup_3 * 10}%`;
+    wealthy_pc.innerHTML = `${socialGroup_3 * 10}% `;
+    wealthyGraph.style["height"] = `${parseInt(socialGroup_3 * 20)}px`;
+
+    socialGroup_1 = 0, socialGroup_2 = 0, socialGroup_3 = 0;
+  });
+  
+</script>
+
+</body>
+</html>
+<!-- 
+Attitude: Poor Middle Wealthy
+
+Money: To be spent | To be managed | To be invested
+Personality: Sense of Humour | Achievement | Connections
+Social emphasis: Inclusion | Self-sufficiency | Exclusion
+Food: Quantity | Quality | Presentation
+Time: In the moment | Against future | Tradition
+Education: Abstract | Success and money | Maintaining connections
+Language: Casual register | Formal—negotiation | Formal—networking
+Family structure: Matriarchal | Patriarchal | Who has money
+Driving forces: Relationships | Achievement | Financial, social,
+Destiny: Fate, can’t | Choice | Expectations
+-->
