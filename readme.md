@@ -20,3 +20,11 @@ Paul C. Gorski (2005). "Savage Unrealities: Uncovering Classism in Ruby Payne’
 - Adrienne van der Valk (2016). “Questioning Payne”, Learning for Justice Magazine. Available at [learningforjustice.org/magazine/spring-2016/questioning-payne](https://www.learningforjustice.org/magazine/spring-2016/questioning-payne)
 - Bess Keller (2006). “Payne’s Pursuit”, Education Week. Available at [edweek.org/leadership/paynes-pursuit/2006/05](https://www.edweek.org/leadership/paynes-pursuit/2006/05)
 - For more references see the [Ruby K. Payne Wikipedia page](https://en.wikipedia.org/wiki/Ruby_K._Payne)
+
+## TO-DO
+
+- [ ] scramble choices
+- [ ] add hover definitions
+- [ ] add more than 10 sections (see class-rule-details)
+- [ ] make mobile-first styles
+- [ ] change main categories to survival, aspiration, strategy

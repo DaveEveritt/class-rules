@@ -1,0 +1,29 @@
+table { text-align: center; border-collapse: collapse; margin-bottom: 1em; }
+th, td { border-right: 4px solid #fff; }
+th { padding: .5em; text-align: right; }
+tr { border-top: 2px solid #fff; background: #eee; }
+input[type="checkbox"] { display: none; }
+input[type="checkbox"]:checked + label { background: rgb(160, 200, 160); }
+label {
+  display: block;
+  padding: .5em;
+}
+.results {
+  display: flex;
+  text-align: center;
+  clear: left;
+}
+.results figure {
+  margin: 0 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.results figcaption { margin-top: .5em; }
+.results div {
+  box-sizing: border-box;
+  padding-top: .25em;
+  height: 200px;
+  width: 100px;
+  background: rgb(160, 200, 160);;
+}

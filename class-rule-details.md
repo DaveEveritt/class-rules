@@ -2,62 +2,62 @@ Hidden Rules Among Classes (adapted)
 from Ruby Payne’s “Understanding Poverty”
 
 POSSESSIONS
-People, pets, friends, cars
-Things, property, gardens, devices
-Unique objects, legacies, pedigrees
+- People, pets, friends, cars
+- Things, property, gardens, devices
+- Unique objects, legacies, pedigrees
 MONEY
-To be used, spent, displayed
-To be managed, balanced, compared
-To be conserved, invested, concealed
+- use, spend, display
+- manage, balance, compare
+- conserve, invest, conceal
 PERSONALITY
-For entertainment: sense of humor is highly valued
-For acquisition and stability: achievement is highly valued
-For connections: financial, political, social all highly valued
+- entertainment: sense of humor highly valued
+- acquisition and stability: achievement highly valued
+- connections: financial, political, social highly valued
 SOCIAL EMPHASIS
-Social inclusion of preferred friends and family
-Emphasis on self-governance and self-sufficiency
-Emphasis on social exclusion, who belongs U/non-U
+- social inclusion of preferred friends and family
+- independence, self-governance and self-sufficiency
+- emphasis on social exclusion, who belongs U/non-U
 FOOD
-quantity is key: did you have enough?
-quality is key: did you like the taste?
-presentation is key: was it well-presented?
+- quantity: did you have enough?
+- quality: did you like the taste?
+- presentation: was it well-presented?
 CLOTHING
-Personality expression of social group, brands
-Quality, practicality and social signalling, labels
-Artistic sense, expression and taste, designer
+- personality expression of social group, brands
+- quality, practicality, social signalling, labels
+- artistic sense, expression and taste, classic design
 TIME
-The present: decisions are emotionally spontaneous or for survival
-The future: decisions always consider the possible ramifications
-Traditions: decisions depend on historical protocol and decorum
+- the present: decisions are emotionally spontaneous or for survival
+- the future: decisions always consider possible ramifications
+- tradition: decisions depend on historical protocol and decorum
 EDUCATION
-Valued distantly but not followed in reality, “university of life”
-Crucial for broadening the mind, or for career progression
-A tradition for making and maintaining the correct connections
+- valued remotely but not followed in reality, “university of life”
+- crucial for broadening the mind, good salary, career progression
+- a traditional way of making and maintaining the correct connections
 DESTINY
-Fate: we cannot do much to mitigate chance or influence our future
-Choice: we can change our future by making thoughtful choices now
-Obligation: be honorable and generous in privilege, if only as duty
+- fate: we cannot do much to mitigate chance or influence our future
+- choice: we can change our future by making thoughtful choices now
+- obligation: be honorable and generous in privilege, if only as duty
 LANGUAGE
-Casual: communication is about sharing survival methods
-Formal: communication negotiates and sets social position
-Diplomatic: communication builds networks and connections
+- Casual: communication shares survival methods and immediate family
+- Formal: communication negotiates and sets social position and ethics
+- Diplomatic: communication builds and maintains networks and connections
 FAMILY STRUCTURE
-Often matriarchal, women keep everything together
-Usually patriarchal, men determine what happens
-Based on inheritance, maintenance of position
+- Often matriarchal, women keep everything together, men are unreliable
+- Usually patriarchal, men determine what happens, or share responsibility
+- Based on inheritance and propriety, maintenance of social position
 WORLD VIEW
-Local matters are of primary consideration
-Everything is seen within a national context
-Everything sits within an international view
+- Local matters are of primary consideration
+- Everything is seen within a national context
+- Everything sits within an international view
 LOVE AND ACCEPTANCE
-Conditional, whether an individual is liked
-Conditional, based around shared achievement
-Conditional, social standing and connections
+- Conditional, whether an individual is liked
+- Based around shared achievements and interests
+- Based on social standing and connections
 DRIVING FORCES
-Survival, relationships, entertainment
-Work, achievement, progress, ambition
-Financial, political, social connection
+- Survival, relationships, entertainment
+- Work, achievement, progress, ambition
+- Financial, political, social connection
 HUMOR
-Characters, sex, slapstick
-Situations, irony, sarcasm
-Social embarrassment, faux pas
+- Characters, sex, slapstick
+- Situations, irony, sarcasm
+- Social embarrassment, faux pas
