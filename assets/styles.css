@@ -1,6 +1,6 @@
 table { text-align: center; border-collapse: collapse; margin-bottom: 1em; }
 th, td { border-right: 4px solid #fff; }
-th { padding: .5em; text-align: right; }
+th { padding: .5em; text-align: right; background: #ddd; }
 tr { border-top: 2px solid #fff; background: #eee; }
 input[type="checkbox"] { display: none; }
 input[type="checkbox"]:checked + label { background: rgb(160, 200, 160); }
@@ -26,4 +26,13 @@ label {
   height: 200px;
   width: 100px;
   background: rgb(160, 200, 160);;
+}
+button {
+  font-size: inherit;
+  border: 1px solid #666;
+  border-radius: 4px;
+  background: #ddd;
+}
+button:hover {
+  background: rgb(160, 200, 160);
 }
