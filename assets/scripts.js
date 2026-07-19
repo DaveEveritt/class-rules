@@ -1,9 +1,9 @@
 const getChoices = () => {
   return document.querySelectorAll('[type="checkbox"]:checked');
 }
-const socialGroup = () => {
-  return document.querySelectorAll('[type="checkbox"]:checked');
-}
+// const socialGroup = () => {
+//   return document.querySelectorAll('[type="checkbox"]:checked');
+// }
 
 let socialGroup_1 = 0, socialGroup_2 = 0, socialGroup_3 = 0;
 
