@@ -2,7 +2,7 @@
 
 An interactive version of American education specialist Cynthia Payne’s grid of social traits. In her work, these are used to describe the traits of people in three social classes.
 
-However, Payne’s work has been criticized for sidestepping the deeper reasons behind poverty, and stereotyping supposed ”class traits”—see the [critique below](#critique), and the [references](#references).
+However, Payne’s work has been criticized for sidestepping the deeper reasons behind poverty, and stereotyping supposed ”class traits”—see the [critique](#critique), and [references](#references).
 
 This version attempts to avoid unconscious bias by scrambling the three “class” columns and allowing multiple choices. Your final score (from 100) for each “social class” is calculated and shown.
 
