@@ -17,24 +17,25 @@ Destiny: Fate (can’t change) Choice obligation (social expectation)
 | Family | Matriarchal | Patriarchal | Wealthy |
 | Drives | Relationships | Achievement | Control |
 | Destiny | Fate | Choice | Obligation |
-
 | Clothing | Brands | Ethical | Classic |
 | Humour | Characters | Irony | Faux-pas |
 
-ADD:
+## Add:
 
 POSSESSIONS
 - people, pets, friends, cars, TVs, gadgets
 - possessions, property, gardens, culture, technology
 - unique objects, collectibles, land, legacies, pedigrees
 WORLD VIEW
-- primary concern is Local and personal matters
-- life is seen within a national political context
-- everything is situated in an international view
+- personal: primarily Local and personal matters
+- political: life within a national political context
+- international: everything within an international view
 LOVE AND ACCEPTANCE
 - conditional, whether an individual is liked
 - formed around shared achievements and interests
 - determined by social standing and connections
+
+## Added:
 
 HUMOR
 - characters, sex, slapstick
