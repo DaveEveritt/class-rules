@@ -17,14 +17,10 @@ const socialTotals = (choiceNumber) => {
   }
 }
 
-clear.addEventListener("click", () => {
-  const choices = getChoices();
-  choices.forEach( choice => {
-    choice.checked = false;
-    socialGroup_1, socialGroup_2, socialGroup_3  = 0;
-    poorGraph.style["height"]="200px", middleGraph.style["height"]="200px", wealthyGraph.style["height"]="200px";
-  });
-});
+const graphReset = () => {
+  const graphs = document.querySelectorAll(".results div");
+  [...graphs].map(elem => elem.style["height"] = "200px");
+}
 
 done.addEventListener("click", () => {
   const choices = getChoices();
@@ -42,4 +38,13 @@ done.addEventListener("click", () => {
   wealthyGraph.style["height"] = `${parseInt(socialGroup_3 * 20)}px`;
 
   socialGroup_1 = 0, socialGroup_2 = 0, socialGroup_3 = 0;
+});
+
+clear.addEventListener("click", () => {
+  const choices = getChoices();
+  choices.forEach( choice => {
+    choice.checked = false;
+    socialGroup_1, socialGroup_2, socialGroup_3 = 0;
+  });
+  graphReset();
 });
