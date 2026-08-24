@@ -17,17 +17,7 @@ const socialTotals = (choiceNumber) => {
   }
 }
 
-const graphReset = () => {
-  const graphs = document.querySelectorAll(".results div");
-  [...graphs].map(elem => elem.style["height"] = "200px");
-}
-
-done.addEventListener("click", () => {
-  const choices = getChoices();
-  choices.forEach( choice => {
-    socialTotals(parseInt(choice.name.at(-1)));
-  });
-
+const setGraphs = () => {
   poor_pc.innerHTML = `${socialGroup_1 * 10}% `;
   poorGraph.style["height"] = `${parseInt(socialGroup_1 * 20)}px`;
 
@@ -38,7 +28,20 @@ done.addEventListener("click", () => {
   wealthyGraph.style["height"] = `${parseInt(socialGroup_3 * 20)}px`;
 
   socialGroup_1 = 0, socialGroup_2 = 0, socialGroup_3 = 0;
+}
+
+done.addEventListener("click", () => {
+  const choices = getChoices();
+  choices.forEach( choice => {
+    socialTotals(parseInt(choice.name.at(-1)));
+  });
+  setGraphs();
 });
+
+const graphReset = () => {
+  const graphs = document.querySelectorAll(".results div");
+  [...graphs].map(elem => elem.style["height"] = "200px");
+}
 
 clear.addEventListener("click", () => {
   const choices = getChoices();
