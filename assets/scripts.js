@@ -31,13 +31,13 @@ done.addEventListener("click", () => {
   choices.forEach( choice => {
     socialTotals(parseInt(choice.name.at(-1)));
   });
-  
+
   poor_pc.innerHTML = `${socialGroup_1 * 10}% `;
   poorGraph.style["height"] = `${parseInt(socialGroup_1 * 20)}px`;
-  
+
   middle_pc.innerHTML = `${socialGroup_2 * 10}% `;
   middleGraph.style["height"] = `${parseInt(socialGroup_2 * 20)}px`;
-  
+
   wealthy_pc.innerHTML = `${socialGroup_3 * 10}% `;
   wealthyGraph.style["height"] = `${parseInt(socialGroup_3 * 20)}px`;
 
