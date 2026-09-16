@@ -27,7 +27,7 @@ This version attempts to avoid unconscious bias by scrambling the three “class
 
 - [ ] scramble choices
 - [ ] add hover definitions
-- [ ] rewrite percentage calculation to handle more than 100
+- [ ] make percentage calculation scalable (smaller as % of larger: 7.84/29.75 * 100 = 26.352)
 - [ ] add more sections (see "class-rule-details/grid")
 - [ ] make mobile-first styles
 - [ ] change poor/middle/wealthy to survival/aspiration/status
