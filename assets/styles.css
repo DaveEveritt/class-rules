@@ -4,7 +4,7 @@ th, td { border-right: 4px solid #fff; }
 th { padding: .5em; text-align: right; background: #ddd; }
 tr { border-top: 2px solid #fff; background: #eee; }
 input[type="checkbox"] { display: none; }
-input[type="checkbox"]:checked + label { background: rgb(160, 200, 160); }
+input[type="checkbox"]:checked + label { background: rgb(160, 210, 160); }
 label {
   display: block;
   padding: .5em;
@@ -26,7 +26,7 @@ label {
   padding-top: .25em;
   height: 200px;
   width: 100px;
-  background: rgb(160, 200, 160);;
+  background: rgb(160, 210, 160);;
 }
 
 button {
@@ -36,5 +36,5 @@ button {
   background: #ddd;
 }
 button:hover {
-  background: rgb(160, 200, 160);
+  background: rgb(160, 210, 160);
 }

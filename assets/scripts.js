@@ -23,15 +23,21 @@ const socialTotals = (choiceNumber) => {
   }
 }
 
+// smaller as % of larger e.g. 7.84/29.75 * 100 = 26.352
+// i.e. (socialGroup_N/classChoices)*100
+
+// sets results graphHeight - needs to match CSS for ".results div"
+const graphHeight = 20;
+
 const setGraphs = () => {
   poor_pc.innerHTML = `${socialGroup_1 * classChoices}% `;
-  poorGraph.style["height"] = `${parseInt(socialGroup_1 * 20)}px`;
+  poorGraph.style["height"] = `${parseInt(socialGroup_1 * graphHeight)}px`;
 
   middle_pc.innerHTML = `${socialGroup_2 * classChoices}% `;
-  middleGraph.style["height"] = `${parseInt(socialGroup_2 * 20)}px`;
+  middleGraph.style["height"] = `${parseInt(socialGroup_2 * graphHeight)}px`;
 
   wealthy_pc.innerHTML = `${socialGroup_3 * classChoices}% `;
-  wealthyGraph.style["height"] = `${parseInt(socialGroup_3 * 20)}px`;
+  wealthyGraph.style["height"] = `${parseInt(socialGroup_3 * graphHeight)}px`;
 
   socialGroup_1 = 0, socialGroup_2 = 0, socialGroup_3 = 0;
 }
