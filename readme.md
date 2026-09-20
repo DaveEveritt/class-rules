@@ -1,10 +1,10 @@
 # Hidden Rules Among Classes
 
-An interactive version of American education specialist Cynthia Payne’s grid of social traits. In her work, these are used to describe the traits of people in three social classes.
+American education specialist Cynthia Payne used a grid of social traits to describe people in three social classes. This is an interactive version.
 
-However, Payne’s work has been criticized for sidestepping the deeper reasons behind poverty, and stereotyping supposed ”class traits”—see the [critique](#critique), and [references](#references).
+However, her work was criticized for sidestepping the deeper reasons behind poverty, and for stereotyping supposed ”class traits”—see the [critique](#critique), and [references](#references).
 
-This version attempts to avoid unconscious bias by scrambling the three “class” columns and allowing multiple choices. Your final score (from 100) for each “social class” is calculated and shown.
+This version attempts to avoid unconscious bias by scrambling the “class” categories and allowing multiple choices. Your final score (from 100) for each “social class” is calculated and shown.
 
 ## Critique
 
@@ -25,9 +25,9 @@ This version attempts to avoid unconscious bias by scrambling the three “class
 
 ## TO-DO
 
-- [ ] scramble choices
-- [ ] add hover definitions
 - [ ] make percentage calculation scalable (smaller as % of larger: 7.84/29.75 * 100 = 26.352)
+- [ ] scramble choices
+- [ ] change poor/middle/wealthy to survival/aspiration/status
+- [ ] add hover definitions
 - [ ] add more sections (see "class-rule-details/grid")
 - [ ] make mobile-first styles
-- [ ] change poor/middle/wealthy to survival/aspiration/status
