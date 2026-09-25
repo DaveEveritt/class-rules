@@ -26,13 +26,13 @@ const socialTotals = (choiceNumber) => {
 
 // smaller as % of larger e.g. smaller/larger * 100 = result
 const setGraphs = () => {
-  poor_pc.innerHTML = `${(socialGroup_1/classChoices)*100}% `;
+  poor_pc.innerHTML = `${((socialGroup_1/classChoices)*100).toFixed(1)}% `;
   poorGraph.style["height"] = `${parseInt(socialGroup_1 * graphHeight)}px`;
   
-  middle_pc.innerHTML = `${(socialGroup_2/classChoices)*100}% `;
+  middle_pc.innerHTML = `${((socialGroup_2/classChoices)*100).toFixed(1)}% `;
   middleGraph.style["height"] = `${parseInt(socialGroup_2 * graphHeight)}px`;
   
-  wealthy_pc.innerHTML = `${(socialGroup_3/classChoices)*100}% `;
+  wealthy_pc.innerHTML = `${((socialGroup_3/classChoices)*100).toFixed(1)}% `;
   wealthyGraph.style["height"] = `${parseInt(socialGroup_3 * graphHeight)}px`;
 
   socialGroup_1 = 0, socialGroup_2 = 0, socialGroup_3 = 0;
