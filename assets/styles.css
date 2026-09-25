@@ -1,5 +1,5 @@
-html { font-family: sans-serif; }
-table { text-align: center; border-collapse: collapse; margin-bottom: 1em; }
+html { font-family: sans-serif; text-align: center; }
+table { text-align: center; border-collapse: collapse; margin: 0 auto 1em; }
 th, td { border-right: 4px solid #fff; }
 th { padding: .5em; text-align: right; background: #ddd; }
 tr { border-top: 2px solid #fff; background: #eee; }
@@ -11,8 +11,8 @@ label {
 }
 .results {
   display: flex;
-  text-align: center;
-  clear: left;
+  margin: 0 auto;
+  width: fit-content;
 }
 .results figure {
   margin: 0 4px;
@@ -22,6 +22,7 @@ label {
 }
 .results figcaption { margin-top: .5em; }
 .results div {
+  transition: all .5s ease-in-out;
   box-sizing: border-box;
   padding-top: .25em;
   height: 200px;
