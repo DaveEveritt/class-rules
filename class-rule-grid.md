@@ -20,7 +20,12 @@ Destiny: Fate (can’t change) Choice obligation (social expectation)
 | Clothing | Brands | Ethical | Classic |
 | Humour | Characters | Irony | Faux-pas |
 
+
 ## Add:
+
+| Possessions | Pets | Property | Land |
+| World | Local | National | Global |
+| Friends | Affection | Interests | Status |
 
 POSSESSIONS
 - people, pets, friends, cars, TVs, gadgets
