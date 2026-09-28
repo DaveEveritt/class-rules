@@ -13,7 +13,6 @@ h1 { margin-bottom: 0; }
 .results {
   display: flex;
   margin: 0 auto;
-  /* width: fit-content; */
   width: 450px;
 }
 .results figure {
@@ -28,7 +27,7 @@ h1 { margin-bottom: 0; }
   transition: all .5s ease-in-out;
   box-sizing: border-box;
   padding-top: .25em;
-  height: 200px;
+  height: 2px;
   background: rgb(160, 210, 160);;
 }
 

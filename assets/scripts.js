@@ -49,7 +49,7 @@ done.addEventListener("click", () => {
 
 const graphReset = () => {
   const graphs = document.querySelectorAll(".results div");
-  [...graphs].map(elem => elem.style["height"] = "200px");
+  [...graphs].map(elem => elem.style["height"] = "2px");
   poor_pc.innerHTML = "";
   middle_pc.innerHTML = "";
   wealthy_pc.innerHTML = "";
