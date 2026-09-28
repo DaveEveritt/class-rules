@@ -9,16 +9,19 @@ label {
   display: block;
   padding: .5em;
 }
+h1 { margin-bottom: 0; }
 .results {
   display: flex;
   margin: 0 auto;
-  width: fit-content;
+  /* width: fit-content; */
+  width: 450px;
 }
 .results figure {
   margin: 0 4px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  width: 100%;
 }
 .results figcaption { margin-top: .5em; }
 .results div {
@@ -26,7 +29,6 @@ label {
   box-sizing: border-box;
   padding-top: .25em;
   height: 200px;
-  width: 100px;
   background: rgb(160, 210, 160);;
 }
 
@@ -35,6 +37,9 @@ button {
   border: 1px solid #666;
   border-radius: 4px;
   background: #ddd;
+  width: 8em;
+  height: 2em;
+  margin: 0 6px
 }
 button:hover {
   background: rgb(160, 210, 160);

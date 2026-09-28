@@ -11,15 +11,9 @@
   
 <h1>Your Social Attitude</h1>
 
-  <p>Select any/all that matches you, then hit “Done”:</p>
+  <p>Select everything that describes you, then press “Done”:</p>
   
   <table>
-    <!-- <tr>
-      <th scope="col">Attitude</th>
-      <th scope="col">Poor</th>
-      <th scope="col">Middle</th>
-      <th scope="col">Wealthy</th>
-    </tr> -->
     <tr>
       <th scope="row">Money</td>
       <td><input type="checkbox" name="money_1" id="spend" value="spend"><label for="spend">Spend</label></td>
@@ -34,8 +28,8 @@
     </tr>
     <tr>
       <th scope="row">Social</td>
-      <td><input type="checkbox" name="social_1" id="inclusion" value="inclusion"><label for="inclusion">Inclusion</label></td>
-      <td><input type="checkbox" name="social_2" id="selfsufficient" value="selfsufficient"><label for="selfsufficient">SelfSufficient</label></td>
+      <td><input type="checkbox" name="social_1" id="inclusive" value="inclusive"><label for="inclusive">Inclusive</label></td>
+      <td><input type="checkbox" name="social_2" id="independent" value="independent"><label for="independent">Independent</label></td>
       <td><input type="checkbox" name="social_3" id="exclusive" value="exclusive"><label for="exclusive">Exclusive</label></td>
     </tr>
     <tr>
@@ -53,9 +47,8 @@
     <tr>
       <th scope="row">Education</td>
       <td><input type="checkbox" name="education_1" id="casual" value="casual"><label for="casual">Casual</label></td>
-      <td><input type="checkbox" name="education_2" id="success" value="success"><label for="success">Success</label></td>
-      <!-- <td><input type="checkbox" name="education_2" id="knowledge" value="knowledge"><label for="knowledge">Knowledge</label></td> -->
-      <td><input type="checkbox" name="education_3" id="contacts" value="contacts"><label for="contacts">Contacts</label></td>
+      <td><input type="checkbox" name="education_2" id="knowledge" value="knowledge"><label for="knowledge">Knowledge</label></td>
+      <td><input type="checkbox" name="education_3" id="status" value="status"><label for="status">Status</label></td>
     </tr>
     <tr>
       <th scope="row">Language</td>
@@ -89,28 +82,28 @@
     </tr>
     <tr>
       <th scope="row">Humour</td>
-      <td><input type="checkbox" name="humour_1" id="characters" value="characters"><label for="characters">characters</label></td>
+      <td><input type="checkbox" name="humour_1" id="characters" value="characters"><label for="characters">Characters</label></td>
       <td><input type="checkbox" name="humour_2" id="irony" value="irony"><label for="irony">Irony</label></td>
       <td><input type="checkbox" name="humour_3" id="faux-pas" value="faux-pas"><label for="faux-pas">Faux-pas</label></td>
     </tr>
   </table>
   
-  <button type="button" id="done">Done</button>
   <button type="button" id="clear">Clear</button>
+  <button type="button" id="done">Done</button>
 
-  <p>Your approach is as follows:</p>
+  <p>Your focus is on:</p>
   <div class="results">
     <figure>
-      <div id="poorGraph"></div><!-- survival -->
-      <figcaption><span id="poor_pc"></span>Poor</figcaption>
+      <div id="poorGraph"></div><!-- Poor -->
+      <figcaption><span id="poor_pc"></span>survival</figcaption>
     </figure>
     <figure>
-      <div id="middleGraph"></div><!-- aspiration -->
-      <figcaption><span id="middle_pc"></span>Middle</figcaption>
+      <div id="middleGraph"></div><!-- Middle -->
+      <figcaption><span id="middle_pc"></span>aspiration</figcaption>
     </figure>
     <figure>
-      <div id="wealthyGraph"></div><!-- strategy -->
-      <figcaption><span id="wealthy_pc"></span>Wealthy</figcaption>
+      <div id="wealthyGraph"></div><!-- Wealthy -->
+      <figcaption><span id="wealthy_pc"></span>position</figcaption>
     </figure>
   </div>
 
