@@ -24,22 +24,6 @@ Destiny: Fate (can’t change) Choice obligation (social expectation)
 | Friends | Affection | Interests | Status |
 
 
-## Add:
-
-
-POSSESSIONS
-- people, pets, friends, cars, TVs, gadgets
-- possessions, property, gardens, culture, technology
-- unique objects, collectibles, land, legacies, pedigrees
-WORLD VIEW
-- personal: primarily Local and personal matters
-- political: life within a national political context
-- international: everything within an international view
-LOVE AND ACCEPTANCE
-- conditional, whether an individual is liked
-- formed around shared achievements and interests
-- determined by social standing and connections
-
 ## Added:
 
 HUMOR
@@ -50,3 +34,17 @@ CLOTHING
 - personality expression of friendship group, brands/labels
 - quality, practicality, social signalling, ethical choices
 - artistic sense, expression and taste, classic design
+POSSESSIONS
+- people, pets, friends, cars, TVs, gadgets
+- possessions, property, gardens, culture, technology
+- unique objects, collectibles, land, legacies, pedigrees
+FOCUS
+- personal: primarily Local and personal matters
+- political: life within a national political context
+- international: everything within an international view
+LOVE AND ACCEPTANCE
+- conditional, whether an individual is liked
+- formed around shared achievements and interests
+- determined by social standing and connections
+
+
