@@ -9,23 +9,23 @@ Destiny: Fate (can’t change) Choice obligation (social expectation)
 |:--|:--|:--|:--|
 | Money | Spend | Manage | Invest |
 | Personality | Humour | Achievement | Connections |
-| Social | Inclusion | Self-sufficient | Exclusive |
+| Social | Inclusive | Independent | Exclusive |
 | Food | Quantity | Quality | Presentation |
 | Time | Present | Future | Tradition |
-| Education | Casual | Success | Connections |
+| Education | Casual | Knowledge | Advantage |
 | Language | Familiar | Negotiating | Networking |
-| Family | Matriarchal | Patriarchal | Wealthy |
-| Drives | Relationships | Achievement | Control |
+| Family | Matriarchal | Patriarchal | Wealth |
+| Drives | Relationships | Ambition | Control |
 | Destiny | Fate | Choice | Obligation |
 | Clothing | Brands | Ethical | Classic |
 | Humour | Characters | Irony | Faux-pas |
+| Possessions | Pets | Property | Land |
+| Focus | Local | National | Global |
+| Friends | Affection | Interests | Status |
 
 
 ## Add:
 
-| Possessions | Pets | Property | Land |
-| World | Local | National | Global |
-| Friends | Affection | Interests | Status |
 
 POSSESSIONS
 - people, pets, friends, cars, TVs, gadgets
