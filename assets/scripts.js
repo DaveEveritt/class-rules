@@ -41,7 +41,7 @@ const setGraphs = () => {
 done.addEventListener("click", () => {
   const choices = getChoices();
   choices.forEach( choice => {
-    // gets 1,2,3 as class indicator
+    // gets 1,2,3 as class indicator from last char of name attribute
     socialTotals(parseInt(choice.name.at(-1)));
   });
   setGraphs();
@@ -50,16 +50,14 @@ done.addEventListener("click", () => {
 const graphReset = () => {
   const graphs = document.querySelectorAll(".results div");
   [...graphs].map(elem => elem.style["height"] = "2px");
-  poor_pc.innerHTML = "";
-  middle_pc.innerHTML = "";
-  wealthy_pc.innerHTML = "";
+  poor_pc.innerHTML = "", middle_pc.innerHTML = "", wealthy_pc.innerHTML = "";
 }
 
 clear.addEventListener("click", () => {
   const choices = getChoices();
   choices.forEach( choice => {
     choice.checked = false;
-    socialGroup_1, socialGroup_2, socialGroup_3 = 0;
+    socialGroup_1 = 0, socialGroup_2 = 0, socialGroup_3 = 0;
   });
   graphReset();
 });

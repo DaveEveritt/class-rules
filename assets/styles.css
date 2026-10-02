@@ -8,6 +8,7 @@ input[type="checkbox"]:checked + label { background: rgb(160, 210, 160); }
 label {
   display: block;
   padding: .5em;
+  user-select: none;
 }
 h1 { margin-bottom: 0; }
 .results {
