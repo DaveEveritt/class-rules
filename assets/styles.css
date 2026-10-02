@@ -1,4 +1,5 @@
 html { font-family: sans-serif; text-align: center; }
+body { background: #eefefe; }
 table { text-align: center; border-collapse: collapse; margin: 0 auto 1em; }
 th, td { border-right: 4px solid #fff; }
 th { padding: .5em; text-align: right; background: #ddd; }
