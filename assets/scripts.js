@@ -1,3 +1,5 @@
+"use strict";
+
 const getChoices = () => {
   return document.querySelectorAll('[type="checkbox"]:checked');
 }
