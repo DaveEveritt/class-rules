@@ -45,3 +45,6 @@ button {
 button:hover {
   background: rgb(160, 210, 160);
 }
+button#clear:hover {
+  background: rgb(219, 229, 27);
+}
